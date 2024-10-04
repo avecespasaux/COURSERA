@@ -14,7 +14,7 @@ function Nav() {
             <ul>
                 
                 <li><Link to="/" className="nav-item">Homepage</Link></li>
-                <li> <Link to="/about" className="nav-item">Reservas</Link></li>
+                <li> <Link to="/Booking" className="nav-item">Reservas</Link></li>
                
             </ul>
 
