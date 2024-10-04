@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+
+
+#cabecera{
+  width:100%;
+  display: grid;
+  grid-template-columns: 50% auto;
+  margin-top:20px;
+  background: #495E57;
+}
+#navegacion{
+  height: 80px;
+  display: grid;
+  grid-template-columns: 20% auto;
+  box-shadow: 2px 10px 10px 10px #ffaeae;
+    background: #F4CE14;
+    text-align: center;
+}
+
+#principal{
+
+  height: 300px;width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+
+}
+
+#navegacion ul li{
+  display:inline;
+  padding:25px;
+  }
+  #navegacion ul{
+    margin-top: 25px;
+  }
+  .nav-item{
+    font-family: cursive;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+#pie{width: 100%;
+  border:1px solid black;
+  background: #F4CE14;
+  display: grid;
+  grid-template-columns: 20% auto;
+}
+  .cardd{
+    height: 100px;
+    height: 200px;
+
+  }
+
+  .fotoCard{
+    height: 100px;
+  }
+
+  
+
